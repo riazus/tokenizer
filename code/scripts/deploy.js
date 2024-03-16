@@ -1,8 +1,10 @@
 async function main() {
   const Riazus42 = await ethers.getContractFactory("Riazus42");
-  
+
   // TODO: address must be changed
-  const myToken = await Riazus42.deploy("0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266");
+  const myToken = await Riazus42.deploy(
+    "0xF535B140c9223ee31714dc47040b36E706Aecfbb"
+  );
 
   console.log("Contract Deployed to Address:", myToken.target);
 }
