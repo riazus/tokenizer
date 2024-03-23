@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Token Riazus42 contract leverages the ERC20 standard from the OpenZeppelin contracts library. It includes all standard ERC20 methods while modifying the "Mint" function to incorporate an ownership mechanism.
+The Token Riazus42 contract leverages the ERC20 standard from the [OpenZeppelin](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/master/contracts/token/ERC20/ERC20.sol) contracts library. It includes all standard ERC20 methods while modifying the "Mint" function to incorporate an ownership mechanism.
 
 ## Ownership
 
